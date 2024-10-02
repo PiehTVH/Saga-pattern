@@ -4,7 +4,7 @@ This project provides a demonstration of effectively managing long-running Payme
 
 The Saga Pattern is a powerful technique for orchestrating a series of related tasks in a distributed system. It decomposes complex processes into smaller, manageable steps, ensuring that in case of any failure, compensating actions are taken. This pattern is instrumental in upholding data integrity and reliability in systems with multiple interacting services, particularly in microservices architectures.
 
-For a more comprehensive understanding of the Saga pattern, please refer to Microservices.io - Saga Pattern.
+For a more comprehensive understanding of the Saga pattern, please refer to [Microservices.io - Saga Pattern.](https://microservices.io/patterns/data/saga.html)
 
 # Set up
 
