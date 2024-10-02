@@ -10,27 +10,44 @@ For a more comprehensive understanding of the Saga pattern, please refer to Micr
 
 ## Kafka Setup
 
+```bash
 docker compose up -d
+```
 
 ## Install Packages
 
+```bash
 yarn --cwd ./kafkaBroker
+```
 
+```bash
 yarn --cwd ./orchestratorService
+```
 
+```bash
 yarn --cwd ./orderService
+```
 
+```bash
 yarn --cwd ./paymentService
+```
 
 ## Create Topics
 
+```bash
 yarn --cwd ./kafkaBroker start
+```
 
 ## Running the Services
 
+```bash
 cd orchestratorService && yarn start
+```
 
+```bash
 cd orderService && yarn start
+```
 
+```bash
 cd paymentService && yarn start
-# Saga-pattern
+```
